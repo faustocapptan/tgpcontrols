@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B9188FB1E4C9E4400DE5BD8 /* TGPControls.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9188FA1E4C9E4400DE5BD8 /* TGPControls.m */; };
+		0B9188FC1E4C9E4400DE5BD8 /* TGPControls.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0B9188F91E4C9E4400DE5BD8 /* TGPControls.h */; };
+		0B91896F1E4CC94F00DE5BD8 /* TGPCamelLabels.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9189671E4CC94F00DE5BD8 /* TGPCamelLabels.m */; };
+		0B9189701E4CC94F00DE5BD8 /* TGPCamelLabels7.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9189691E4CC94F00DE5BD8 /* TGPCamelLabels7.m */; };
+		0B9189711E4CC94F00DE5BD8 /* TGPDiscreteSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B91896C1E4CC94F00DE5BD8 /* TGPDiscreteSlider.m */; };
+		0B9189721E4CC94F00DE5BD8 /* TGPDiscreteSlider7.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B91896E1E4CC94F00DE5BD8 /* TGPDiscreteSlider7.m */; };
+		0B9189741E4CCA2600DE5BD8 /* TGPCamelLabels.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B9189661E4CC94F00DE5BD8 /* TGPCamelLabels.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B9189751E4CCA2800DE5BD8 /* TGPCamelLabels.m in Headers */ = {isa = PBXBuildFile; fileRef = 0B9189671E4CC94F00DE5BD8 /* TGPCamelLabels.m */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B9189761E4CCA2B00DE5BD8 /* TGPCamelLabels7.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B9189681E4CC94F00DE5BD8 /* TGPCamelLabels7.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B9189771E4CCA2E00DE5BD8 /* TGPCamelLabels7.m in Headers */ = {isa = PBXBuildFile; fileRef = 0B9189691E4CC94F00DE5BD8 /* TGPCamelLabels7.m */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B9189781E4CCA3100DE5BD8 /* TGPControlsTicksProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B91896A1E4CC94F00DE5BD8 /* TGPControlsTicksProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B9189791E4CCA3200DE5BD8 /* TGPDiscreteSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B91896B1E4CC94F00DE5BD8 /* TGPDiscreteSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B91897A1E4CCA3500DE5BD8 /* TGPDiscreteSlider.m in Headers */ = {isa = PBXBuildFile; fileRef = 0B91896C1E4CC94F00DE5BD8 /* TGPDiscreteSlider.m */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B91897B1E4CCA3F00DE5BD8 /* TGPDiscreteSlider7.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B91896D1E4CC94F00DE5BD8 /* TGPDiscreteSlider7.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B91897C1E4CCA4400DE5BD8 /* TGPDiscreteSlider7.m in Headers */ = {isa = PBXBuildFile; fileRef = 0B91896E1E4CC94F00DE5BD8 /* TGPDiscreteSlider7.m */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B91897D1E4CCA4700DE5BD8 /* TGPControls.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B9188F91E4C9E4400DE5BD8 /* TGPControls.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B91897E1E4CCA4900DE5BD8 /* TGPControls.m in Headers */ = {isa = PBXBuildFile; fileRef = 0B9188FA1E4C9E4400DE5BD8 /* TGPControls.m */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0B9188F41E4C9E4400DE5BD8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				0B9188FC1E4C9E4400DE5BD8 /* TGPControls.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0B9188F61E4C9E4400DE5BD8 /* libTGPControls.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTGPControls.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B9188F91E4C9E4400DE5BD8 /* TGPControls.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGPControls.h; sourceTree = "<group>"; };
+		0B9188FA1E4C9E4400DE5BD8 /* TGPControls.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGPControls.m; sourceTree = "<group>"; };
+		0B9189661E4CC94F00DE5BD8 /* TGPCamelLabels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGPCamelLabels.h; sourceTree = "<group>"; };
+		0B9189671E4CC94F00DE5BD8 /* TGPCamelLabels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGPCamelLabels.m; sourceTree = "<group>"; };
+		0B9189681E4CC94F00DE5BD8 /* TGPCamelLabels7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGPCamelLabels7.h; sourceTree = "<group>"; };
+		0B9189691E4CC94F00DE5BD8 /* TGPCamelLabels7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGPCamelLabels7.m; sourceTree = "<group>"; };
+		0B91896A1E4CC94F00DE5BD8 /* TGPControlsTicksProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGPControlsTicksProtocol.h; sourceTree = "<group>"; };
+		0B91896B1E4CC94F00DE5BD8 /* TGPDiscreteSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGPDiscreteSlider.h; sourceTree = "<group>"; };
+		0B91896C1E4CC94F00DE5BD8 /* TGPDiscreteSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGPDiscreteSlider.m; sourceTree = "<group>"; };
+		0B91896D1E4CC94F00DE5BD8 /* TGPDiscreteSlider7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGPDiscreteSlider7.h; sourceTree = "<group>"; };
+		0B91896E1E4CC94F00DE5BD8 /* TGPDiscreteSlider7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGPDiscreteSlider7.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B9188F31E4C9E4400DE5BD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B9188ED1E4C9E4400DE5BD8 = {
+			isa = PBXGroup;
+			children = (
+				0B9188F81E4C9E4400DE5BD8 /* TGPControls */,
+				0B9188F71E4C9E4400DE5BD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0B9188F71E4C9E4400DE5BD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B9188F61E4C9E4400DE5BD8 /* libTGPControls.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B9188F81E4C9E4400DE5BD8 /* TGPControls */ = {
+			isa = PBXGroup;
+			children = (
+				0B9189661E4CC94F00DE5BD8 /* TGPCamelLabels.h */,
+				0B9189671E4CC94F00DE5BD8 /* TGPCamelLabels.m */,
+				0B9189681E4CC94F00DE5BD8 /* TGPCamelLabels7.h */,
+				0B9189691E4CC94F00DE5BD8 /* TGPCamelLabels7.m */,
+				0B91896A1E4CC94F00DE5BD8 /* TGPControlsTicksProtocol.h */,
+				0B91896B1E4CC94F00DE5BD8 /* TGPDiscreteSlider.h */,
+				0B91896C1E4CC94F00DE5BD8 /* TGPDiscreteSlider.m */,
+				0B91896D1E4CC94F00DE5BD8 /* TGPDiscreteSlider7.h */,
+				0B91896E1E4CC94F00DE5BD8 /* TGPDiscreteSlider7.m */,
+				0B9188F91E4C9E4400DE5BD8 /* TGPControls.h */,
+				0B9188FA1E4C9E4400DE5BD8 /* TGPControls.m */,
+			);
+			path = TGPControls;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0B9189731E4CCA1200DE5BD8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B9189741E4CCA2600DE5BD8 /* TGPCamelLabels.h in Headers */,
+				0B9189751E4CCA2800DE5BD8 /* TGPCamelLabels.m in Headers */,
+				0B9189761E4CCA2B00DE5BD8 /* TGPCamelLabels7.h in Headers */,
+				0B9189771E4CCA2E00DE5BD8 /* TGPCamelLabels7.m in Headers */,
+				0B9189781E4CCA3100DE5BD8 /* TGPControlsTicksProtocol.h in Headers */,
+				0B9189791E4CCA3200DE5BD8 /* TGPDiscreteSlider.h in Headers */,
+				0B91897A1E4CCA3500DE5BD8 /* TGPDiscreteSlider.m in Headers */,
+				0B91897B1E4CCA3F00DE5BD8 /* TGPDiscreteSlider7.h in Headers */,
+				0B91897C1E4CCA4400DE5BD8 /* TGPDiscreteSlider7.m in Headers */,
+				0B91897D1E4CCA4700DE5BD8 /* TGPControls.h in Headers */,
+				0B91897E1E4CCA4900DE5BD8 /* TGPControls.m in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0B9188F51E4C9E4400DE5BD8 /* TGPControls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B9188FF1E4C9E4400DE5BD8 /* Build configuration list for PBXNativeTarget "TGPControls" */;
+			buildPhases = (
+				0B9188F21E4C9E4400DE5BD8 /* Sources */,
+				0B9188F31E4C9E4400DE5BD8 /* Frameworks */,
+				0B9188F41E4C9E4400DE5BD8 /* CopyFiles */,
+				0B9189731E4CCA1200DE5BD8 /* Headers */,
+				0B91897F1E4CCBE300DE5BD8 /* Build Framework */,
+				0B9189801E4CCC7400DE5BD8 /* Multiplataform Build */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TGPControls;
+			productName = TGPControls;
+			productReference = 0B9188F61E4C9E4400DE5BD8 /* libTGPControls.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B9188EE1E4C9E4400DE5BD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Capptan;
+				TargetAttributes = {
+					0B9188F51E4C9E4400DE5BD8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0B9188F11E4C9E4400DE5BD8 /* Build configuration list for PBXProject "TGPControls" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0B9188ED1E4C9E4400DE5BD8;
+			productRefGroup = 0B9188F71E4C9E4400DE5BD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B9188F51E4C9E4400DE5BD8 /* TGPControls */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B91897F1E4CCBE300DE5BD8 /* Build Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Build Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport FRAMEWORK_LOCN=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework\"\n\n# Create the path to the real Headers die\nmkdir -p \"${FRAMEWORK_LOCN}/Versions/A/Headers\"\n\n# Create the required symlinks\n/bin/ln -sfh A \"${FRAMEWORK_LOCN}/Versions/Current\"\n/bin/ln -sfh Versions/Current/Headers \"${FRAMEWORK_LOCN}/Headers\"\n/bin/ln -sfh \"Versions/Current/${PRODUCT_NAME}\" \\\n\"${FRAMEWORK_LOCN}/${PRODUCT_NAME}\"\n\n# Copy the public headers into the framework\n/bin/cp -a \"${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \\\n\"${FRAMEWORK_LOCN}/Versions/A/Headers\"";
+		};
+		0B9189801E4CCC7400DE5BD8 /* Multiplataform Build */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Multiplataform Build";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\n# If we're already inside this script then die\nif [ -n \"$RW_MULTIPLATFORM_BUILD_IN_PROGRESS\" ]; then\nexit 0\nfi\nexport RW_MULTIPLATFORM_BUILD_IN_PROGRESS=1\n\nRW_FRAMEWORK_NAME=${PROJECT_NAME}\nRW_INPUT_STATIC_LIB=\"lib${PROJECT_NAME}.a\"\nRW_FRAMEWORK_LOCATION=\"${BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework\"\n\nfunction build_static_library {\n    # Will rebuild the static library as specified\n    #     build_static_library sdk\n    xcrun xcodebuild -project \"${PROJECT_FILE_PATH}\" \\\n    -target \"${TARGET_NAME}\" \\\n    -configuration \"${CONFIGURATION}\" \\\n    -sdk \"${1}\" \\\n    ONLY_ACTIVE_ARCH=NO \\\n    BUILD_DIR=\"${BUILD_DIR}\" \\\n    OBJROOT=\"${OBJROOT}\" \\\n    BUILD_ROOT=\"${BUILD_ROOT}\" \\\n    SYMROOT=\"${SYMROOT}\" $ACTION\n}\n\nfunction make_fat_library {\n    # Will smash 2 static libs together\n    #     make_fat_library in1 in2 out\n    xcrun lipo -create \"${1}\" \"${2}\" -output \"${3}\"\n}\n\n# 1 - Extract the platform (iphoneos/iphonesimulator) from the SDK name\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]; then\nRW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\n# 2 - Extract the version from the SDK\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]; then\nRW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\n# 3 - Determine the other platform\nif [ \"$RW_SDK_PLATFORM\" == \"iphoneos\" ]; then\nRW_OTHER_PLATFORM=iphonesimulator\nelse\nRW_OTHER_PLATFORM=iphoneos\nfi\n\n# 4 - Find the build directory\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$RW_SDK_PLATFORM$ ]]; then\nRW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${RW_OTHER_PLATFORM}\"\nelse\necho \"Could not find other platform build directory.\"\nexit 1\nfi\n\n# Build the other platform.\nbuild_static_library \"${RW_OTHER_PLATFORM}${RW_SDK_VERSION}\"\n\n# If we're currently building for iphonesimulator, then need to rebuild\n#   to ensure that we get both i386 and x86_64\nif [ \"$RW_SDK_PLATFORM\" == \"iphonesimulator\" ]; then\nbuild_static_library \"${SDK_NAME}\"\nfi\n\n# Join the 2 static libs into 1 and push into the .framework\nmake_fat_library \"${BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${RW_FRAMEWORK_LOCATION}/Versions/A/${RW_FRAMEWORK_NAME}\"\n\n# Ensure that the framework is present in both platform's build directories\ncp -a \"${RW_FRAMEWORK_LOCATION}/Versions/A/${RW_FRAMEWORK_NAME}\" \\\n\"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework/Versions/A/${RW_FRAMEWORK_NAME}\"\n\n# Copy the framework to the user's desktop\nditto \"${RW_FRAMEWORK_LOCATION}\" \"${HOME}/Desktop/${RW_FRAMEWORK_NAME}.framework\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B9188F21E4C9E4400DE5BD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B9189701E4CC94F00DE5BD8 /* TGPCamelLabels7.m in Sources */,
+				0B9188FB1E4C9E4400DE5BD8 /* TGPControls.m in Sources */,
+				0B91896F1E4CC94F00DE5BD8 /* TGPCamelLabels.m in Sources */,
+				0B9189721E4CC94F00DE5BD8 /* TGPDiscreteSlider7.m in Sources */,
+				0B9189711E4CC94F00DE5BD8 /* TGPDiscreteSlider.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0B9188FD1E4C9E4400DE5BD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0B9188FE1E4C9E4400DE5BD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B9189001E4C9E4400DE5BD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VALID_ARCHS = "arm64 armv7 armv7s i386";
+			};
+			name = Debug;
+		};
+		0B9189011E4C9E4400DE5BD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VALID_ARCHS = "arm64 armv7 armv7s i386";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B9188F11E4C9E4400DE5BD8 /* Build configuration list for PBXProject "TGPControls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B9188FD1E4C9E4400DE5BD8 /* Debug */,
+				0B9188FE1E4C9E4400DE5BD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B9188FF1E4C9E4400DE5BD8 /* Build configuration list for PBXNativeTarget "TGPControls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B9189001E4C9E4400DE5BD8 /* Debug */,
+				0B9189011E4C9E4400DE5BD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B9188EE1E4C9E4400DE5BD8 /* Project object */;
+}

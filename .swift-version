@@ -1,0 +1,8 @@
+
+ -> 3 -> 3
+    - ERROR | spec: The specification defined in `3` could not be loaded.
+
+[!] No podspec exists at path `3`.
+
+[!] 3 did not pass validation, due to 1 error.
+You can use the `--no-clean` option to inspect any issue.
