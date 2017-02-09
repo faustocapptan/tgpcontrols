@@ -229,7 +229,6 @@
 
 - (void)dockEffect:(NSTimeInterval)duration
 {
-    NSLog([NSString stringWithFormat:@"aquiiii %i", self.value]);
     const int up = ((int) self.value) + 10;
     
     // Unlike the National Parks from which it is inspired, this Dock Effect
@@ -257,13 +256,10 @@
         }];
         
         // Bring the selection up
-        NSLog([NSString stringWithFormat:@"upLabels count -- %i", [self.upLabels count]]);
         int abc = [self.upLabels count];
         if(up < abc) {
             [self moveUp:[self.upLabels objectAtIndex:up] withAlpha:1.f];
         }
-        
-        NSLog([NSString stringWithFormat:@"dnLabels count -- %i", [self.dnLabels count]]);
         
         if(up < [self.dnLabels count]) {
             [self moveUp:[self.dnLabels objectAtIndex:up] withAlpha:0.f];
