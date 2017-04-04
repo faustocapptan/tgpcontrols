@@ -35,7 +35,7 @@ IB_DESIGNABLE
 
 @property (nonatomic) IBInspectable NSUInteger tickCount; // Only used if [labels count] < 1
 @property (nonatomic) IBInspectable CGFloat ticksDistance;
-@property (nonatomic) IBInspectable NSUInteger value;
+@property (nonatomic) IBInspectable CGFloat value;
 
 @property (nonatomic) IBInspectable NSString * upFontName;
 @property (nonatomic) IBInspectable CGFloat upFontSize;

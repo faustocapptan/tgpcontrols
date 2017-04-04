@@ -47,6 +47,7 @@
 @dynamic thumbImage;
 @dynamic minimumValue;
 @dynamic value;
+@dynamic lastSelectedValue;
 @dynamic incrementValue;
 
 #pragma mark properties

@@ -58,7 +58,7 @@
     [self layoutTrack];
 }
 
-- (void)setValue:(NSUInteger)value {
+- (void)setValue:(CGFloat)value {
     _value = value;
     [self dockEffect:self.animationDuration];
 }
@@ -229,7 +229,7 @@
 
 - (void)dockEffect:(NSTimeInterval)duration
 {
-    const int up = ((int) self.value) + 10;
+    const int up = ((CGFloat) self.value) + 10;
     
     // Unlike the National Parks from which it is inspired, this Dock Effect
     // does not abruptly change from BOLD to plain. Instead, we have 2 sets of
@@ -309,4 +309,5 @@
 {
     self.value = value;
 }
+
 @end

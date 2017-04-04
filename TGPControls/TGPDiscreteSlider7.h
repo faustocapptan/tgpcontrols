@@ -73,6 +73,7 @@ typedef NS_ENUM(int, ComponentStyle) {
 // AKA: UISlider value (as CGFloat for compatibility with UISlider API, but expected to contain integers)
 @property (nonatomic, assign) CGFloat minimumValue;
 @property (nonatomic, assign) CGFloat value;
+@property (nonatomic, assign) CGFloat lastSelectedValue;
 
 @property (nonatomic, assign) int incrementValue;
 

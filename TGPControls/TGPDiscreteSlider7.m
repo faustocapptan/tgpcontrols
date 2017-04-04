@@ -32,6 +32,7 @@
 
 static CGFloat iOSThumbShadowRadius = 4.0;
 static CGSize iosThumbShadowOffset = (CGSize){0, 3};
+CGFloat lastSelectedValue = 0;
 
 @interface TGPDiscreteSlider7 () {
     int _intValue;
@@ -182,6 +183,10 @@ static CGSize iosThumbShadowOffset = (CGSize){0, 3};
     return _intValue;           // calculated property, with a float-to-int adapter
 }
 
+- (CGFloat)lastSelectedValue {
+    return lastSelectedValue;
+}
+
 // When bounds change, recalculate layout
 - (void)setBounds:(CGRect)bounds
 {
@@ -218,6 +223,11 @@ static CGSize iosThumbShadowOffset = (CGSize){0, 3};
     if([self.ticksListener respondsToSelector:@selector(tgpValueChanged:)]) {
         [self.ticksListener tgpValueChanged:self.value];
     }
+    
+    if([self.ticksListener respondsToSelector:@selector(tgpTouchesEnded:)]) {
+        printf("testeee ended");
+    }
+    
 }
 
 #pragma mark TGPDiscreteSlider7
@@ -622,6 +632,7 @@ static CGSize iosThumbShadowOffset = (CGSize){0, 3};
                                      ? UIControlEventTouchUpInside
                                      : UIControlEventTouchUpOutside)
                            forEvent:event];
+ lastSelectedValue = self.value;
 }
 
 - (void)touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event {

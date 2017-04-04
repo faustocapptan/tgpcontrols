@@ -35,7 +35,7 @@
 
 @property (nonatomic, assign) NSUInteger tickCount; // Only used if [labels count] < 1
 @property (nonatomic, assign) CGFloat ticksDistance;
-@property (nonatomic, assign) NSUInteger value;
+@property (nonatomic, assign) CGFloat value;
 
 @property (nonatomic, strong) NSString * upFontName;
 @property (nonatomic, assign) CGFloat upFontSize;

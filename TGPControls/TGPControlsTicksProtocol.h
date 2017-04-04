@@ -35,4 +35,7 @@
 
 @optional
 - (void)tgpValueChanged:(int)value;
+
+- (void)tgpTouchesEnded:(int)value;
+
 @end

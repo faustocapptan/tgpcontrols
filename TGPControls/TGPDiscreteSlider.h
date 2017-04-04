@@ -54,6 +54,7 @@ IB_DESIGNABLE
 // AKA: UISlider value (as CGFloat for compatibility with UISlider API, but expected to contain integers)
 @property (nonatomic) IBInspectable CGFloat minimumValue;
 @property (nonatomic) IBInspectable CGFloat value;
+@property (nonatomic) IBInspectable CGFloat lastSelectedValue;
 
 @property (nonatomic) IBInspectable int incrementValue;
 
