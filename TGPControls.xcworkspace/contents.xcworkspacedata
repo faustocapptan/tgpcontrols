@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "container:TGPControls.xcodeproj">
+      location = "container:/Users/dev03/Projetos/iOS/Capptan.EasySlider/Capptan.EasySlider.xcodeproj">
    </FileRef>
 </Workspace>

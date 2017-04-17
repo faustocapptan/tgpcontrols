@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
 
   spec.platform = :ios, "9.1"
   spec.requires_arc = true
-  spec.source = { git: "https://github.com/faustocapptan/tgpcontrols.git", :tag => '1.0.1', :commit => "73be416da261f4e31c53f3539bcca7bcc8c87c35" }
+  spec.source = { git: "https://github.com/faustocapptan/tgpcontrols.git", :tag => '1.0.1', :commit => "35ebde966333e6246d18aaac1a3120cb304be0b2" }
   spec.source_files = "TGPControls/**/*.{m,h,swift}"
 
 end

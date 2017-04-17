@@ -40,7 +40,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0B9188F61E4C9E4400DE5BD8 /* libTGPControls.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTGPControls.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B9188F61E4C9E4400DE5BD8 /* libCapptan.EasySlider.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCapptan.EasySlider.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B9188F91E4C9E4400DE5BD8 /* TGPControls.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGPControls.h; sourceTree = "<group>"; };
 		0B9188FA1E4C9E4400DE5BD8 /* TGPControls.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGPControls.m; sourceTree = "<group>"; };
 		0B9189661E4CC94F00DE5BD8 /* TGPCamelLabels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGPCamelLabels.h; sourceTree = "<group>"; };
@@ -68,7 +68,7 @@
 		0B9188ED1E4C9E4400DE5BD8 = {
 			isa = PBXGroup;
 			children = (
-				0B9188F81E4C9E4400DE5BD8 /* TGPControls */,
+				0B9188F81E4C9E4400DE5BD8 /* Capptan.EasySlider */,
 				0B9188F71E4C9E4400DE5BD8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,12 +76,12 @@
 		0B9188F71E4C9E4400DE5BD8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0B9188F61E4C9E4400DE5BD8 /* libTGPControls.a */,
+				0B9188F61E4C9E4400DE5BD8 /* libCapptan.EasySlider.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0B9188F81E4C9E4400DE5BD8 /* TGPControls */ = {
+		0B9188F81E4C9E4400DE5BD8 /* Capptan.EasySlider */ = {
 			isa = PBXGroup;
 			children = (
 				0B9189661E4CC94F00DE5BD8 /* TGPCamelLabels.h */,
@@ -96,6 +96,7 @@
 				0B9188F91E4C9E4400DE5BD8 /* TGPControls.h */,
 				0B9188FA1E4C9E4400DE5BD8 /* TGPControls.m */,
 			);
+			name = Capptan.EasySlider;
 			path = TGPControls;
 			sourceTree = "<group>";
 		};
@@ -123,9 +124,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0B9188F51E4C9E4400DE5BD8 /* TGPControls */ = {
+		0B9188F51E4C9E4400DE5BD8 /* Capptan.EasySlider */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0B9188FF1E4C9E4400DE5BD8 /* Build configuration list for PBXNativeTarget "TGPControls" */;
+			buildConfigurationList = 0B9188FF1E4C9E4400DE5BD8 /* Build configuration list for PBXNativeTarget "Capptan.EasySlider" */;
 			buildPhases = (
 				0B9188F21E4C9E4400DE5BD8 /* Sources */,
 				0B9188F31E4C9E4400DE5BD8 /* Frameworks */,
@@ -138,9 +139,9 @@
 			);
 			dependencies = (
 			);
-			name = TGPControls;
+			name = Capptan.EasySlider;
 			productName = TGPControls;
-			productReference = 0B9188F61E4C9E4400DE5BD8 /* libTGPControls.a */;
+			productReference = 0B9188F61E4C9E4400DE5BD8 /* libCapptan.EasySlider.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -159,7 +160,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0B9188F11E4C9E4400DE5BD8 /* Build configuration list for PBXProject "TGPControls" */;
+			buildConfigurationList = 0B9188F11E4C9E4400DE5BD8 /* Build configuration list for PBXProject "Capptan.EasySlider" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -171,7 +172,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0B9188F51E4C9E4400DE5BD8 /* TGPControls */,
+				0B9188F51E4C9E4400DE5BD8 /* Capptan.EasySlider */,
 			);
 		};
 /* End PBXProject section */
@@ -336,7 +337,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0B9188F11E4C9E4400DE5BD8 /* Build configuration list for PBXProject "TGPControls" */ = {
+		0B9188F11E4C9E4400DE5BD8 /* Build configuration list for PBXProject "Capptan.EasySlider" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0B9188FD1E4C9E4400DE5BD8 /* Debug */,
@@ -345,7 +346,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0B9188FF1E4C9E4400DE5BD8 /* Build configuration list for PBXNativeTarget "TGPControls" */ = {
+		0B9188FF1E4C9E4400DE5BD8 /* Build configuration list for PBXNativeTarget "Capptan.EasySlider" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0B9189001E4C9E4400DE5BD8 /* Debug */,
