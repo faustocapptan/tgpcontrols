@@ -7,23 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B9188FB1E4C9E4400DE5BD8 /* TGPControls.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9188FA1E4C9E4400DE5BD8 /* TGPControls.m */; };
-		0B9188FC1E4C9E4400DE5BD8 /* TGPControls.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0B9188F91E4C9E4400DE5BD8 /* TGPControls.h */; };
-		0B91896F1E4CC94F00DE5BD8 /* TGPCamelLabels.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9189671E4CC94F00DE5BD8 /* TGPCamelLabels.m */; };
-		0B9189701E4CC94F00DE5BD8 /* TGPCamelLabels7.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9189691E4CC94F00DE5BD8 /* TGPCamelLabels7.m */; };
-		0B9189711E4CC94F00DE5BD8 /* TGPDiscreteSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B91896C1E4CC94F00DE5BD8 /* TGPDiscreteSlider.m */; };
-		0B9189721E4CC94F00DE5BD8 /* TGPDiscreteSlider7.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B91896E1E4CC94F00DE5BD8 /* TGPDiscreteSlider7.m */; };
-		0B9189741E4CCA2600DE5BD8 /* TGPCamelLabels.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B9189661E4CC94F00DE5BD8 /* TGPCamelLabels.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0B9189751E4CCA2800DE5BD8 /* TGPCamelLabels.m in Headers */ = {isa = PBXBuildFile; fileRef = 0B9189671E4CC94F00DE5BD8 /* TGPCamelLabels.m */; settings = {ATTRIBUTES = (Public, ); }; };
-		0B9189761E4CCA2B00DE5BD8 /* TGPCamelLabels7.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B9189681E4CC94F00DE5BD8 /* TGPCamelLabels7.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0B9189771E4CCA2E00DE5BD8 /* TGPCamelLabels7.m in Headers */ = {isa = PBXBuildFile; fileRef = 0B9189691E4CC94F00DE5BD8 /* TGPCamelLabels7.m */; settings = {ATTRIBUTES = (Public, ); }; };
-		0B9189781E4CCA3100DE5BD8 /* TGPControlsTicksProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B91896A1E4CC94F00DE5BD8 /* TGPControlsTicksProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0B9189791E4CCA3200DE5BD8 /* TGPDiscreteSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B91896B1E4CC94F00DE5BD8 /* TGPDiscreteSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0B91897A1E4CCA3500DE5BD8 /* TGPDiscreteSlider.m in Headers */ = {isa = PBXBuildFile; fileRef = 0B91896C1E4CC94F00DE5BD8 /* TGPDiscreteSlider.m */; settings = {ATTRIBUTES = (Public, ); }; };
-		0B91897B1E4CCA3F00DE5BD8 /* TGPDiscreteSlider7.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B91896D1E4CC94F00DE5BD8 /* TGPDiscreteSlider7.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0B91897C1E4CCA4400DE5BD8 /* TGPDiscreteSlider7.m in Headers */ = {isa = PBXBuildFile; fileRef = 0B91896E1E4CC94F00DE5BD8 /* TGPDiscreteSlider7.m */; settings = {ATTRIBUTES = (Public, ); }; };
-		0B91897D1E4CCA4700DE5BD8 /* TGPControls.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B9188F91E4C9E4400DE5BD8 /* TGPControls.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0B91897E1E4CCA4900DE5BD8 /* TGPControls.m in Headers */ = {isa = PBXBuildFile; fileRef = 0B9188FA1E4C9E4400DE5BD8 /* TGPControls.m */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B486E741EA50686003B817A /* TGPDiscreteSlider7.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B486E691EA50686003B817A /* TGPDiscreteSlider7.m */; };
+		0B486E751EA50686003B817A /* TGPDiscreteSlider7.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B486E6A1EA50686003B817A /* TGPDiscreteSlider7.h */; };
+		0B486E761EA50686003B817A /* TGPDiscreteSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B486E6B1EA50686003B817A /* TGPDiscreteSlider.m */; };
+		0B486E771EA50686003B817A /* TGPDiscreteSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B486E6C1EA50686003B817A /* TGPDiscreteSlider.h */; };
+		0B486E781EA50686003B817A /* TGPControlsTicksProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B486E6D1EA50686003B817A /* TGPControlsTicksProtocol.h */; };
+		0B486E791EA50686003B817A /* TGPControls.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B486E6E1EA50686003B817A /* TGPControls.m */; };
+		0B486E7A1EA50686003B817A /* TGPControls.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B486E6F1EA50686003B817A /* TGPControls.h */; };
+		0B486E7B1EA50686003B817A /* TGPCamelLabels7.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B486E701EA50686003B817A /* TGPCamelLabels7.m */; };
+		0B486E7C1EA50686003B817A /* TGPCamelLabels7.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B486E711EA50686003B817A /* TGPCamelLabels7.h */; };
+		0B486E7D1EA50686003B817A /* TGPCamelLabels.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B486E721EA50686003B817A /* TGPCamelLabels.m */; };
+		0B486E7E1EA50686003B817A /* TGPCamelLabels.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B486E731EA50686003B817A /* TGPCamelLabels.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,25 +27,24 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				0B9188FC1E4C9E4400DE5BD8 /* TGPControls.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0B486E691EA50686003B817A /* TGPDiscreteSlider7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TGPDiscreteSlider7.m; path = Capptan.EasySlider/TGPDiscreteSlider7.m; sourceTree = SOURCE_ROOT; };
+		0B486E6A1EA50686003B817A /* TGPDiscreteSlider7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TGPDiscreteSlider7.h; path = Capptan.EasySlider/TGPDiscreteSlider7.h; sourceTree = SOURCE_ROOT; };
+		0B486E6B1EA50686003B817A /* TGPDiscreteSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TGPDiscreteSlider.m; path = Capptan.EasySlider/TGPDiscreteSlider.m; sourceTree = SOURCE_ROOT; };
+		0B486E6C1EA50686003B817A /* TGPDiscreteSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TGPDiscreteSlider.h; path = Capptan.EasySlider/TGPDiscreteSlider.h; sourceTree = SOURCE_ROOT; };
+		0B486E6D1EA50686003B817A /* TGPControlsTicksProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TGPControlsTicksProtocol.h; path = Capptan.EasySlider/TGPControlsTicksProtocol.h; sourceTree = SOURCE_ROOT; };
+		0B486E6E1EA50686003B817A /* TGPControls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TGPControls.m; path = Capptan.EasySlider/TGPControls.m; sourceTree = SOURCE_ROOT; };
+		0B486E6F1EA50686003B817A /* TGPControls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TGPControls.h; path = Capptan.EasySlider/TGPControls.h; sourceTree = SOURCE_ROOT; };
+		0B486E701EA50686003B817A /* TGPCamelLabels7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TGPCamelLabels7.m; path = Capptan.EasySlider/TGPCamelLabels7.m; sourceTree = SOURCE_ROOT; };
+		0B486E711EA50686003B817A /* TGPCamelLabels7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TGPCamelLabels7.h; path = Capptan.EasySlider/TGPCamelLabels7.h; sourceTree = SOURCE_ROOT; };
+		0B486E721EA50686003B817A /* TGPCamelLabels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TGPCamelLabels.m; path = Capptan.EasySlider/TGPCamelLabels.m; sourceTree = SOURCE_ROOT; };
+		0B486E731EA50686003B817A /* TGPCamelLabels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TGPCamelLabels.h; path = Capptan.EasySlider/TGPCamelLabels.h; sourceTree = SOURCE_ROOT; };
 		0B9188F61E4C9E4400DE5BD8 /* libCapptan.EasySlider.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCapptan.EasySlider.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B9188F91E4C9E4400DE5BD8 /* TGPControls.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGPControls.h; sourceTree = "<group>"; };
-		0B9188FA1E4C9E4400DE5BD8 /* TGPControls.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGPControls.m; sourceTree = "<group>"; };
-		0B9189661E4CC94F00DE5BD8 /* TGPCamelLabels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGPCamelLabels.h; sourceTree = "<group>"; };
-		0B9189671E4CC94F00DE5BD8 /* TGPCamelLabels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGPCamelLabels.m; sourceTree = "<group>"; };
-		0B9189681E4CC94F00DE5BD8 /* TGPCamelLabels7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGPCamelLabels7.h; sourceTree = "<group>"; };
-		0B9189691E4CC94F00DE5BD8 /* TGPCamelLabels7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGPCamelLabels7.m; sourceTree = "<group>"; };
-		0B91896A1E4CC94F00DE5BD8 /* TGPControlsTicksProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGPControlsTicksProtocol.h; sourceTree = "<group>"; };
-		0B91896B1E4CC94F00DE5BD8 /* TGPDiscreteSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGPDiscreteSlider.h; sourceTree = "<group>"; };
-		0B91896C1E4CC94F00DE5BD8 /* TGPDiscreteSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGPDiscreteSlider.m; sourceTree = "<group>"; };
-		0B91896D1E4CC94F00DE5BD8 /* TGPDiscreteSlider7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGPDiscreteSlider7.h; sourceTree = "<group>"; };
-		0B91896E1E4CC94F00DE5BD8 /* TGPDiscreteSlider7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGPDiscreteSlider7.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,17 +77,17 @@
 		0B9188F81E4C9E4400DE5BD8 /* Capptan.EasySlider */ = {
 			isa = PBXGroup;
 			children = (
-				0B9189661E4CC94F00DE5BD8 /* TGPCamelLabels.h */,
-				0B9189671E4CC94F00DE5BD8 /* TGPCamelLabels.m */,
-				0B9189681E4CC94F00DE5BD8 /* TGPCamelLabels7.h */,
-				0B9189691E4CC94F00DE5BD8 /* TGPCamelLabels7.m */,
-				0B91896A1E4CC94F00DE5BD8 /* TGPControlsTicksProtocol.h */,
-				0B91896B1E4CC94F00DE5BD8 /* TGPDiscreteSlider.h */,
-				0B91896C1E4CC94F00DE5BD8 /* TGPDiscreteSlider.m */,
-				0B91896D1E4CC94F00DE5BD8 /* TGPDiscreteSlider7.h */,
-				0B91896E1E4CC94F00DE5BD8 /* TGPDiscreteSlider7.m */,
-				0B9188F91E4C9E4400DE5BD8 /* TGPControls.h */,
-				0B9188FA1E4C9E4400DE5BD8 /* TGPControls.m */,
+				0B486E691EA50686003B817A /* TGPDiscreteSlider7.m */,
+				0B486E6A1EA50686003B817A /* TGPDiscreteSlider7.h */,
+				0B486E6B1EA50686003B817A /* TGPDiscreteSlider.m */,
+				0B486E6C1EA50686003B817A /* TGPDiscreteSlider.h */,
+				0B486E6D1EA50686003B817A /* TGPControlsTicksProtocol.h */,
+				0B486E6E1EA50686003B817A /* TGPControls.m */,
+				0B486E6F1EA50686003B817A /* TGPControls.h */,
+				0B486E701EA50686003B817A /* TGPCamelLabels7.m */,
+				0B486E711EA50686003B817A /* TGPCamelLabels7.h */,
+				0B486E721EA50686003B817A /* TGPCamelLabels.m */,
+				0B486E731EA50686003B817A /* TGPCamelLabels.h */,
 			);
 			name = Capptan.EasySlider;
 			path = TGPControls;
@@ -107,17 +100,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B9189741E4CCA2600DE5BD8 /* TGPCamelLabels.h in Headers */,
-				0B9189751E4CCA2800DE5BD8 /* TGPCamelLabels.m in Headers */,
-				0B9189761E4CCA2B00DE5BD8 /* TGPCamelLabels7.h in Headers */,
-				0B9189771E4CCA2E00DE5BD8 /* TGPCamelLabels7.m in Headers */,
-				0B9189781E4CCA3100DE5BD8 /* TGPControlsTicksProtocol.h in Headers */,
-				0B9189791E4CCA3200DE5BD8 /* TGPDiscreteSlider.h in Headers */,
-				0B91897A1E4CCA3500DE5BD8 /* TGPDiscreteSlider.m in Headers */,
-				0B91897B1E4CCA3F00DE5BD8 /* TGPDiscreteSlider7.h in Headers */,
-				0B91897C1E4CCA4400DE5BD8 /* TGPDiscreteSlider7.m in Headers */,
-				0B91897D1E4CCA4700DE5BD8 /* TGPControls.h in Headers */,
-				0B91897E1E4CCA4900DE5BD8 /* TGPControls.m in Headers */,
+				0B486E7E1EA50686003B817A /* TGPCamelLabels.h in Headers */,
+				0B486E781EA50686003B817A /* TGPControlsTicksProtocol.h in Headers */,
+				0B486E771EA50686003B817A /* TGPDiscreteSlider.h in Headers */,
+				0B486E7A1EA50686003B817A /* TGPControls.h in Headers */,
+				0B486E7C1EA50686003B817A /* TGPCamelLabels7.h in Headers */,
+				0B486E751EA50686003B817A /* TGPDiscreteSlider7.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,11 +201,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B9189701E4CC94F00DE5BD8 /* TGPCamelLabels7.m in Sources */,
-				0B9188FB1E4C9E4400DE5BD8 /* TGPControls.m in Sources */,
-				0B91896F1E4CC94F00DE5BD8 /* TGPCamelLabels.m in Sources */,
-				0B9189721E4CC94F00DE5BD8 /* TGPDiscreteSlider7.m in Sources */,
-				0B9189711E4CC94F00DE5BD8 /* TGPDiscreteSlider.m in Sources */,
+				0B486E741EA50686003B817A /* TGPDiscreteSlider7.m in Sources */,
+				0B486E791EA50686003B817A /* TGPControls.m in Sources */,
+				0B486E761EA50686003B817A /* TGPDiscreteSlider.m in Sources */,
+				0B486E7D1EA50686003B817A /* TGPCamelLabels.m in Sources */,
+				0B486E7B1EA50686003B817A /* TGPCamelLabels7.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
