@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
-  spec.name = "TGPControls"
-  spec.version = "1.0.0"
-  spec.summary = "Sample framework from blog post, not for real world use."
+  spec.name = "Capptan.EasySlider"
+  spec.version = "1.0.1"
+  spec.summary = "Easy Slider"
   spec.homepage = "http://capptan.com.br"
   spec.license = { type: 'MIT', file: 'LICENSE' }
   spec.authors = { "Your Name" => 'capptan@capptan.com.br' }
@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
 
   spec.platform = :ios, "9.1"
   spec.requires_arc = true
-  spec.source = { git: "https://github.com/faustocapptan/tgpcontrols.git", :tag => '1.0.0', :commit => "dc1a176c5e0c9ccf7de00270d6bb292da01e67c2" }
+  spec.source = { git: "https://github.com/faustocapptan/tgpcontrols.git", :tag => '1.0.1', :commit => "73be416da261f4e31c53f3539bcca7bcc8c87c35" }
   spec.source_files = "TGPControls/**/*.{m,h,swift}"
 
 end
